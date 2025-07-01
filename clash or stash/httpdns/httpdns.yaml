@@ -1,94 +1,94 @@
 payload:
 # Alibaba
-  - DOMAIN-SUFFIX,httpdns.alicdn.com,REJECT
+  - DOMAIN-SUFFIX,httpdns.alicdn.com
 # Aliyun
-  - DOMAIN-SUFFIX,httpdns-api.aliyuncs.com,REJECT
-  - DOMAIN-SUFFIX,httpdns-sc.aliyuncs.com,REJECT
-  - IP-CIDR,203.107.1.0/24,REJECT,no-resolve
+  - DOMAIN-SUFFIX,httpdns-api.aliyuncs.com
+  - DOMAIN-SUFFIX,httpdns-sc.aliyuncs.com
+  - IP-CIDR,203.107.1.0/24,no-resolve
 # Baidu
-  - DOMAIN-SUFFIX,httpsdns.baidu.com,REJECT
-  - DOMAIN-SUFFIX,httpdns.baidu.com,REJECT
+  - DOMAIN-SUFFIX,httpsdns.baidu.com
+  - DOMAIN-SUFFIX,httpdns.baidu.com
 # BaiduBCE
-  - DOMAIN-SUFFIX,httpdns.baidubce.com,REJECT
-  - IP-CIDR,180.76.76.200/32,REJECT,no-resolve
+  - DOMAIN-SUFFIX,httpdns.baidubce.com
+  - IP-CIDR,180.76.76.200/32,no-resolve
 # Bilibili
-  - DOMAIN-SUFFIX,httpdns.bilivideo.com,REJECT
+  - DOMAIN-SUFFIX,httpdns.bilivideo.com
 # Huawei
-  - DOMAIN-SUFFIX,httpdns.c.cdnhwc2.com,REJECT
+  - DOMAIN-SUFFIX,httpdns.c.cdnhwc2.com
 # JD
-  - DOMAIN-SUFFIX,dns.jd.com,REJECT
-  - IP-CIDR,101.124.19.122/32,REJECT,no-resolve
-  - IP-CIDR6,2402:db40:5100:1011::5/128,REJECT,no-resolve
+  - DOMAIN-SUFFIX,dns.jd.com
+  - IP-CIDR,101.124.19.122/32,no-resolve
+  - IP-CIDR6,2402:db40:5100:1011::5/128,no-resolve
 # JD Cloud
-  - IP-CIDR,103.224.222.208/32,REJECT,no-resolve
+  - IP-CIDR,103.224.222.208/32,no-resolve
 # Keep
-  - DOMAIN-SUFFIX,httpdns.calorietech.com,REJECT
+  - DOMAIN-SUFFIX,httpdns.calorietech.com
 # Meituan
-  - DOMAIN-SUFFIX,httpdns.meituan.com,REJECT
-  - IP-CIDR,202.90.108.13/32,REJECT,no-resolve
-  - IP-CIDR,202.90.110.46/32,REJECT,no-resolve
+  - DOMAIN-SUFFIX,httpdns.meituan.com
+  - IP-CIDR,202.90.108.13/32,no-resolve
+  - IP-CIDR,202.90.110.46/32,no-resolve
 # NetEase
-  - DOMAIN-SUFFIX,httpdns.yunxindns.com,REJECT
-  - DOMAIN-SUFFIX,httpdns.n.netease.com,REJECT
-  - DOMAIN-SUFFIX,httpdns.music.163.com,REJECT
-  - DOMAIN-SUFFIX,music.httpdns.c.163.com,REJECT
-  - DOMAIN-SUFFIX,lofter.httpdns.c.163.com,REJECT
-  - IP-CIDR,59.111.239.61/32,REJECT,no-resolve
-  - IP-CIDR,59.111.239.62/32,REJECT,no-resolve
-  - IP-CIDR,115.236.121.51/32,REJECT,no-resolve
-  - IP-CIDR,115.236.121.195/32,REJECT,no-resolve
+  - DOMAIN-SUFFIX,httpdns.yunxindns.com
+  - DOMAIN-SUFFIX,httpdns.n.netease.com
+  - DOMAIN-SUFFIX,httpdns.music.163.com
+  - DOMAIN-SUFFIX,music.httpdns.c.163.com
+  - DOMAIN-SUFFIX,lofter.httpdns.c.163.com
+  - IP-CIDR,59.111.239.61/32,no-resolve
+  - IP-CIDR,59.111.239.62/32,no-resolve
+  - IP-CIDR,115.236.121.51/32,no-resolve
+  - IP-CIDR,115.236.121.195/32,no-resolve
 # Oppo
-  - DOMAIN-SUFFIX,httpdns.push.oppomobile.com,REJECT
+  - DOMAIN-SUFFIX,httpdns.push.oppomobile.com
 # Tencent Cloud
-  - DOMAIN-SUFFIX,httpdns.pro,REJECT
-  - IP-CIDR,119.29.29.98/32,REJECT,no-resolve
-  - IP-CIDR,119.29.29.99/32,REJECT,no-resolve
+  - DOMAIN-SUFFIX,httpdns.pro
+  - IP-CIDR,119.29.29.98/32,no-resolve
+  - IP-CIDR,119.29.29.99/32,no-resolve
 # Volcengine
-  - DOMAIN-SUFFIX,httpdns.volcengineapi.com,REJECT
+  - DOMAIN-SUFFIX,httpdns.volcengineapi.com
 # Weibo
-  - DOMAIN-SUFFIX,dns.weibo.cn,REJECT
-  - IP-CIDR,39.97.128.148/32,REJECT,no-resolve
-  - IP-CIDR,39.97.130.51/32,REJECT,no-resolve
+  - DOMAIN-SUFFIX,dns.weibo.cn
+  - IP-CIDR,39.97.128.148/32,no-resolve
+  - IP-CIDR,39.97.130.51/32,no-resolve
 # Weixin
-  - DOMAIN-SUFFIX,dns.weixin.qq.com,REJECT
-  - DOMAIN-SUFFIX,dns.weixin.qq.com.cn,REJECT
-  - IP-CIDR,42.81.232.18/32,REJECT,no-resolve
-  - IP-CIDR,42.187.182.106/32,REJECT,no-resolve
-  - IP-CIDR,42.187.182.123/32,REJECT,no-resolve
-  - IP-CIDR,42.187.184.154/32,REJECT,no-resolve
-  - IP-CIDR,123.151.54.50/32,REJECT,no-resolve
-  - IP-CIDR6,2402:4e00:1900:1700:0:9554:1ad9:c3a/128,REJECT,no-resolve
-  - IP-CIDR6,240e:928:1400:10::25/128,REJECT,no-resolve
+  - DOMAIN-SUFFIX,dns.weixin.qq.com
+  - DOMAIN-SUFFIX,dns.weixin.qq.com.cn
+  - IP-CIDR,42.81.232.18/32,no-resolve
+  - IP-CIDR,42.187.182.106/32,no-resolve
+  - IP-CIDR,42.187.182.123/32,no-resolve
+  - IP-CIDR,42.187.184.154/32,no-resolve
+  - IP-CIDR,123.151.54.50/32,no-resolve
+  - IP-CIDR6,2402:4e00:1900:1700:0:9554:1ad9:c3a/128,no-resolve
+  - IP-CIDR6,240e:928:1400:10::25/128,no-resolve
 # Wework
-  - IP-CIDR,182.254.116.117/32,REJECT,no-resolve
-  - IP-CIDR,182.254.118.119/32,REJECT,no-resolve
+  - IP-CIDR,182.254.116.117/32,no-resolve
+  - IP-CIDR,182.254.118.119/32,no-resolve
 # Zhihu
-  - IP-CIDR,118.89.204.198/32,REJECT,no-resolve
-  - IP-CIDR6,2402:4e00:1200:ed00:0:9089:6dac:96b6/128,REJECT,no-resolve
+  - IP-CIDR,118.89.204.198/32,no-resolve
+  - IP-CIDR6,2402:4e00:1200:ed00:0:9089:6dac:96b6/128,no-resolve
 # 其他
-  - DOMAIN-SUFFIX,apidns.kwd.inkuai.com,REJECT
-  - DOMAIN-SUFFIX,dns.iqiyi.com,REJECT
-  - DOMAIN-SUFFIX,dns.qiyipic.iqiyi.com,REJECT
-  - DOMAIN-SUFFIX,doh.dns.apple.com,REJECT
-  - DOMAIN-SUFFIX,doh.iqiyi.com,REJECT
-  - DOMAIN-SUFFIX,doh.ptqy.gitv.tv,REJECT
-  - DOMAIN-SUFFIX,dotserver.douyucdn.cn,REJECT
-  - DOMAIN-SUFFIX,hdns.ksyun.com,REJECT
-  - DOMAIN-SUFFIX,httpdns-browser.platform.dbankcloud.cn,REJECT
-  - DOMAIN-SUFFIX,httpdns-sdk.n.netease.com,REJECT
-  - DOMAIN-SUFFIX,httpdns.bcelive.com,REJECT
-  - DOMAIN-SUFFIX,httpdns.browser.miui.com,REJECT
-  - DOMAIN-SUFFIX,httpdns.cctv.com,REJECT
-  - DOMAIN-SUFFIX,httpdns.danuoyi.tbcache.com,REJECT
-  - DOMAIN-SUFFIX,httpdns.gslb.yy.com,REJECT
-  - DOMAIN-SUFFIX,httpdns.huaweicloud.com,REJECT
-  - DOMAIN-SUFFIX,httpdns.kg.qq.com,REJECT
-  - DOMAIN-SUFFIX,httpdns.kwd.inkuai.com,REJECT
-  - DOMAIN-SUFFIX,httpdns.n.shifen.com,REJECT
-  - DOMAIN-SUFFIX,httpdns.ocloud.heytapmobi.com,REJECT
-  - DOMAIN-SUFFIX,httpdns.ocloud.oppomobile.com,REJECT
-  - DOMAIN-SUFFIX,httpdns.platform.dbankcloud.cn,REJECT
-  - DOMAIN-SUFFIX,httpdns.platform.dbankcloud.com,REJECT
-  - DOMAIN-SUFFIX,httpdns.push.heytapmobi.com,REJECT
-  - DOMAIN-SUFFIX,httpdns.zybang.com,REJECT
-  - DOMAIN-SUFFIX,httpdns1.cc.cdnhwc5.com,REJECT
+  - DOMAIN-SUFFIX,apidns.kwd.inkuai.com
+  - DOMAIN-SUFFIX,dns.iqiyi.com
+  - DOMAIN-SUFFIX,dns.qiyipic.iqiyi.com
+  - DOMAIN-SUFFIX,doh.dns.apple.com
+  - DOMAIN-SUFFIX,doh.iqiyi.com
+  - DOMAIN-SUFFIX,doh.ptqy.gitv.tv
+  - DOMAIN-SUFFIX,dotserver.douyucdn.cn
+  - DOMAIN-SUFFIX,hdns.ksyun.com
+  - DOMAIN-SUFFIX,httpdns-browser.platform.dbankcloud.cn
+  - DOMAIN-SUFFIX,httpdns-sdk.n.netease.com
+  - DOMAIN-SUFFIX,httpdns.bcelive.com
+  - DOMAIN-SUFFIX,httpdns.browser.miui.com
+  - DOMAIN-SUFFIX,httpdns.cctv.com
+  - DOMAIN-SUFFIX,httpdns.danuoyi.tbcache.com
+  - DOMAIN-SUFFIX,httpdns.gslb.yy.com
+  - DOMAIN-SUFFIX,httpdns.huaweicloud.com
+  - DOMAIN-SUFFIX,httpdns.kg.qq.com
+  - DOMAIN-SUFFIX,httpdns.kwd.inkuai.com
+  - DOMAIN-SUFFIX,httpdns.n.shifen.com
+  - DOMAIN-SUFFIX,httpdns.ocloud.heytapmobi.com
+  - DOMAIN-SUFFIX,httpdns.ocloud.oppomobile.com
+  - DOMAIN-SUFFIX,httpdns.platform.dbankcloud.cn
+  - DOMAIN-SUFFIX,httpdns.platform.dbankcloud.com
+  - DOMAIN-SUFFIX,httpdns.push.heytapmobi.com
+  - DOMAIN-SUFFIX,httpdns.zybang.com
+  - DOMAIN-SUFFIX,httpdns1.cc.cdnhwc5.com
