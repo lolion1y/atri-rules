@@ -1,0 +1,58 @@
+payload:
+# 斗鱼
+  - DOMAIN-SUFFIX,stun.douyucdn.cn,REJECT
+  - DOMAIN-SUFFIX,stun1.douyucdn.cn,REJECT
+  - DOMAIN-SUFFIX,dyp2p-ali.douyucdn.cn,REJECT
+  - DOMAIN-SUFFIX,dyp2p-hw.douyucdn.cn,REJECT
+  - DOMAIN-SUFFIX,p2pchunk-hw.douyucdn.cn,REJECT
+  - DOMAIN-SUFFIX,p2pchunk-table.douyucdn.cn,REJECT
+  - DOMAIN-SUFFIX,p2pchunk-ws.douyucdn.cn,REJECT
+  - DOMAIN-SUFFIX,p2perrorlog.douyucdn.cn,REJECT
+  - DOMAIN-SUFFIX,p2plive-ali.douyucdn.cn,REJECT
+  - DOMAIN-SUFFIX,p2plive-ws.douyucdn.cn,REJECT
+  - DOMAIN-SUFFIX,p2plog.douyucdn.cn,REJECT
+  - DOMAIN-SUFFIX,p2pvod-ws.douyucdn.cn,REJECT
+  - DOMAIN-SUFFIX,p2p-ali.douyucdn.cn,REJECT
+# bilibili
+  - DOMAIN-SUFFIX,mcdn.bilivideo.cn,REJECT
+  - DOMAIN-SUFFIX,mcdn.bilivideo.com,REJECT
+# 爱奇艺
+  - DOMAIN-SUFFIX,tpa-hcdn.iqiyi.com,REJECT
+# 芒果tv
+  - DOMAIN-SUFFIX,stun.hitv.com,REJECT
+# 喜马拉雅
+  - DOMAIN-SUFFIX,pcdn.xmcdn.com,REJECT
+# 快手
+  - DOMAIN-SUFFIX,pcdn.yximgs.com,REJECT
+# 腾讯
+  - DOMAIN-SUFFIX,p2p.qq.com,REJECT
+  - DOMAIN-SUFFIX,p2ptun.qq.com,REJECT
+  - DOMAIN-SUFFIX,p2pupdate.gamedl.qq.com,REJECT
+  - DOMAIN-SUFFIX,p2pupgrade.gamedl.qq.com,REJECT
+# 抖音/字节
+  - DOMAIN-SUFFIX,hypercachenode.com,REJECT
+# TCL
+  - DOMAIN-SUFFIX,pis-cnc-pcdn.cp31.ott.cibntv.net,REJECT
+# 第三方 PCDN 服务商
+  - DOMAIN-SUFFIX,ksyungslb.com,REJECT
+  - DOMAIN-SUFFIX,gjfzpt.cn,REJECT
+  - DOMAIN-SUFFIX,szbdyd.com,REJECT
+  - DOMAIN-SUFFIX,bsccdn.net,REJECT
+  - DOMAIN-SUFFIX,pkoplink.com,REJECT
+  - DOMAIN-SUFFIX,saxysec.com,REJECT
+  - DOMAIN-SUFFIX,uhabo.com,REJECT
+  - DOMAIN-SUFFIX,xycdn.com,REJECT
+  - DOMAIN-SUFFIX,xinqiucc.com,REJECT
+  - DOMAIN-SUFFIX,kuiniuca.com,REJECT
+  - DOMAIN-SUFFIX,onethingpcs.com,REJECT
+  - DOMAIN-SUFFIX,jomodns.cn,REJECT
+# 虎牙
+  - DOMAIN-SUFFIX,p2p.huya.com,REJECT
+# /.*pcdn.*biliapi.net/
+  - DOMAIN-REGEX,pcdn.*biliapi\.net,REJECT
+# /.*pcdn.*youku.com/
+  - DOMAIN-REGEX,pcdn.*youku\.com,REJECT
+# /.*p2p.*douyucdn.cn/
+  - DOMAIN-REGEX,p2p.*douyucdn\.cn,REJECT
+# /.*p2p.*qq.com/
+  - DOMAIN-REGEX,p2p.*qq\.com,REJECT
